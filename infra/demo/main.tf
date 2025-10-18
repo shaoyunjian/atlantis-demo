@@ -12,6 +12,4 @@ resource "random_id" "example" {
   byte_length = 4
 }
 
-output "hex" {
-  value = random_id.example.hex
-}
+output "hex" { value = random_id.example.hex }
